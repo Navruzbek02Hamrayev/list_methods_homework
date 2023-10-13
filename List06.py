@@ -8,3 +8,4 @@ def main(fruits):
     """
     return fruits.count("apple")
 print(main(["apple", "banana", "apple", "pear"]))
+print(main( ["apple", "banana", "apple", "apple", "apple"]))
