@@ -11,6 +11,7 @@ def main(fruits):
         if fruits[i]=="apple":
             fruits.remove(fruits[i])
         else:
+            fruits
             i+=1
     return fruits
 print(main(["apple", "banana", "apple", "pear", "apple"]))
